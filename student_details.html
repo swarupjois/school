@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Student Details</title>
+</head>
+<body bgcolor="purple"><br><br><br><br><br>
+<a href="home.html"><img src="home_button.png"  style="position:absolute;top:10;left:10;width:50;height:50;"/></a>
+<a href="logout.php"><img src="logout.jpeg" style="position:absolute;top:10;left:70;width:50;height:50;"  /></a>
+
+<form action="perticular_class.php" method="POST">
+<font color="white"><h3 style="position:absolute;top:130;left:54;">CLASS DETAILS</font> </h3>
+<font color="white"><h3 style="position:absolute;top:180;left:5;">CLASS</font> </h3><input type="text" name="class" placeholder="Enter the Class" style="position:absolute;top:200;left:70;">
+<h1 style="position:absolute;top:170;left:75">
+<br><br><button type="submit">SHOW</button>
+
+</h1>
+</form>
+
+
+
+
+<center>
+<fieldset style="background-color:blue;height:300px;width:520px; padding:70px;"> 
+<form action="details.php" method="POST" >
+
+<h1><font  color="white" size="6">STUDENT DETAILS</font></h1>
+
+<table style="position:absolute;top:280;left:400;"><tr><th></th><th></th></tr>
+    
+   
+ <center><tr><td><h2><font  color="white" size="5">STUDENT NAME:<input type="text" name="n1" placeholder="Enter the Name" style="width:230px;height:50px;" required="require">*</font></td></tr></center>
+  <center><tr><td></td></tr></center>
+
+  
+   </table>
+<br><br><button type="submit" style="position:absolute;top:420;left:550;width:200px;height:35px;">GET DETAILS</button> 
+
+</center>
+</form>
+
+<form action="view.php" method="POST">
+<center>
+<h1 style="position:absolute;top:400;left:600">
+<br><br><button type="submit">View All</button>
+
+</h1>
+</center>
+</form>
+</fieldset>
+</body>
+</html>

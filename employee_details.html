@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Employee Details</title>
+</head>
+<body bgcolor="purple"><br><br><br><br><br>
+<a href="home.html"><img src="home_button.png"  style="position:absolute;top:10;left:10;width:50;height:50;"/></a>
+<a href="logout.php"><img src="logout.jpeg" style="position:absolute;top:10;left:70;width:50;height:50;"  /></a>
+<center>
+<fieldset style="background-color:blue;height:350px;width:620px; padding:70px;"> 
+<form action="employee_details.php" method="POST" >
+
+<h1><font  color="white" size="6">EMPLOYEE DETAILS</font></h1>
+
+<table style="position:absolute;top:280;left:400;"><tr><th></th><th></th></tr>
+    
+   
+ <tr><td><h2><font  color="white" size="4"><pre>     STUDENT NAME:<input type="text" name="n1" placeholder="Enter the Name" NAME" style="width:230px;height:50px;" >*</pre></font></td></tr>
+  <tr><td></td></tr>
+<tr><td><center><b><font  color="white" size="4">OR</font></b></center></td></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><td><h2><pre><font  color="white" size="4">           EMP ID:<input type="text" name="empid" placeholder="Enter the EMP ID" style="width:230px;height:50px;" >*</font></pre></td></tr></center>
+  <tr><td></td></tr>
+
+  
+   </table>
+<br><br><button type="submit" style="position:absolute;top:520;left:450;width:200px;height:35px;">GET DETAILS</button>
+
+</center>
+</form>
+
+<form action="employee_view.php" method="POST">
+<center>
+
+<br><br><button type="submit" style="position:absolute;top:520;left:700;width:200px;height:35px;">View All</button>
+
+
+</center>
+</form>
+</fieldset>
+</body>
+</html>
